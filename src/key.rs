@@ -171,7 +171,7 @@ impl RsaPublicKey {
     pub const MAX_PUB_EXPONENT: u64 = (1 << 33) - 1;
 
     /// Maximum size of the modulus `n` in bits.
-    pub const MAX_SIZE: usize = 4096;
+    pub const MAX_SIZE: usize = 8192;
 
     /// Create a new public key from its components.
     ///
